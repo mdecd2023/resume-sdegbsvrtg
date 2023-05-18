@@ -1,0 +1,16 @@
+% 轉檔指令: pdflatex -interaction=nonstopmode chinese_ex1.tex
+\documentclass[book, oneside, 12pt]{article}
+\usepackage{CJKutf8}
+\begin{document}
+%以下 bsmi 為明體, 若要使用楷書, 則使用 bkai
+\begin{CJK*}{UTF8}{bsmi}
+ 
+\section{標題}
+網際內容管理與協同產品設計實習 \\[18pt] % \\ will end the line [18pt] means next line spacing gap is 18pt, 1point ≈ 0.0138 inch ≈ 0.3515 mm
+Web-based content management, collaborative product design.
+ 
+\section{2023 Spring 學期}
+安裝 cjk 與 cjk-fonts 終於可以使用中文
+ 
+\end{CJK*}
+\end{document}
